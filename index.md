@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Kyle M. Brewster
 ---
 
 ## Hello!
