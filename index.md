@@ -129,7 +129,46 @@ In the future, this page will be the "landing page" for a collection of my websi
 Best wishes in the meantime,  
 Kyle 
 
-*Last Update:* 6/13
+*Last Update:* 7/7/22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+words
+
+
+
+
+
+
+
+
+
+
+
+
+some more
 
 <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script> <script> var x = document.getElementsByClassName("site-footer-credits"); setTimeout(() => { x[0].remove(); }, 10); </script>
 
