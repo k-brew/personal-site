@@ -91,8 +91,29 @@ body {
 
 <div class="navbar">
   <a href="#home">Home</a>
-  <a href="#news">Resume</a>
+
   <div class="dropdown">
+    <button class="dropbtn">Professional 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Tutoring</a>
+      <a href="#">Reference Material</a>
+      <a href="#">Software Recommendations</a>
+    </div>    
+    
+   <div class="dropdown">
+    <button class="dropbtn">Personal 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Goals</a>
+      <a href="#">Influences</a>
+      <a href="#"><i>Coming soon!</i></a>
+    </div>
+     
+  <a href="#goals">Personal</a>
+    <div class="dropdown">
     <button class="dropbtn">Resources 
       <i class="fa fa-caret-down"></i>
     </button>
@@ -101,6 +122,7 @@ body {
       <a href="#">Reference Material</a>
       <a href="#">Software Recommendations</a>
     </div>
+  </div> 
   </div> 
 </div>
 </body>
