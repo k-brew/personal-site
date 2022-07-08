@@ -2,7 +2,6 @@
 layout: default
 title: Kyle M. Brewster
 ---
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -71,6 +70,21 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+  
 </style>
 </head>
 <body>
