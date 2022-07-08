@@ -2,7 +2,6 @@
 layout: default
 title: Kyle M. Brewster
 ---
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -92,19 +91,16 @@ title: Kyle M. Brewster
 <p>Click on the "Dropdown" link to see the dropdown menu.</p>
 
 <script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+window.onscroll = function() {myFunction()};
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
   }
 }
 </script>
@@ -120,17 +116,6 @@ This site is currently a work-in-progress, so please check these links for some 
 - [Old Personal Site](https://kyle-brewster.blogspot.com/)
 - [Github](https://github.com/k-brew)
 - [Linkedin](https://www.linkedin.com/in/kyle-brewster)
-
-
-[test](test-page.md)
-
-[test2](https://github.com/k-brew/personal-site/blob/gh-pages/files/ANOVA_webversion.html)
-
-<details>
-<summary>How do I dropdown?</summary>
-<br>
-This is how you dropdown.
-</details>
 
 
 
