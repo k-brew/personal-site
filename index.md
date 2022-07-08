@@ -132,12 +132,11 @@ This site is currently a work-in-progress, pardon any broken functionality. Plea
 - [Linkedin](https://www.linkedin.com/in/kyle-brewster)
 
 [test](https://k-brew.github.io/personal-site/files/testing.html)
-[test1](/files/testing.html)
-[testing](test-page.md)
-[testing](testing.html)
+[testing for html](/files/testing.html)  
+[testing for md](test-page.md)  
+[broke1](testing.html) - DOESNT WORK
 [testing](/test-page.md)
-[testing](/testing.html)
-[test](https://k-brew.github.io/personal-site/test-page.md)
+
 
 Best wishes in the meantime,  
 Kyle 
