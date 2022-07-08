@@ -131,6 +131,7 @@ This site is currently a work-in-progress, pardon any broken functionality. Plea
 - [Github](https://github.com/k-brew)
 - [Linkedin](https://www.linkedin.com/in/kyle-brewster)
 
+[test](https://k-brew.github.io/personal-site/test-page.md/)
 
 Best wishes in the meantime,  
 Kyle 
