@@ -17,7 +17,7 @@ This site is currently a work-in-progress, so please check these links for some 
 [test](test-page.md)
 
 [test2](https://github.com/k-brew/personal-site/blob/gh-pages/files/ANOVA_webversion.html)
-3
+
 
 In the future, this page will be the "landing page" for a collection of my websites (or maybe branches within the same site). In the near future, there will be the following topics:
 
