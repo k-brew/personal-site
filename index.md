@@ -90,20 +90,8 @@ title: Kyle M. Brewster
 <h3>Dropdown Menu inside a Navigation Bar</h3>
 <p>Click on the "Dropdown" link to see the dropdown menu.</p>
 
-<script>
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
+<div class="content">
+  
 </body>
 </html>
 
@@ -199,6 +187,25 @@ g
   
    
 g  
+  
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
 
 g  
 
