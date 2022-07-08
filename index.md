@@ -14,7 +14,7 @@ This site is currently a work-in-progress, so please check these links for some 
 - [Linkedin](https://www.linkedin.com/in/kyle-brewster)
 
 
-[test](https://k-brew.github.io/personal-site/test-page.md)
+[test](https://k-brew.github.io/personal-site/test-page.md/)
 
 In the future, this page will be the "landing page" for a collection of my websites (or maybe branches within the same site). In the near future, there will be the following topics:
 
