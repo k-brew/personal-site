@@ -90,23 +90,17 @@ body {
 <body>
 
 <div class="navbar">
-  <a href="#home">Home</a>
-  
-  <div class="dropdown">
-    <button class="dropbtn">Professional 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Resume</a>
-      <a href="#">Reference Material</a>
-      <a href="#">Software Recommendations</a>
-    </div></div>  
-    
+  <a href="#Home">Home</a>
+  <a href="#">CV</a>
+  <a href="https://github.com/k-brew">Github</a>
+  <a href="#">LinkedIn</a>
+   
    <div class="dropdown">
     <button class="dropbtn">Personal 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
+      <a href="#">About Ne</a>
       <a href="#">Goals</a>
       <a href="#">Influences</a>
       <a href="#"><i>Coming soon!</i></a>
