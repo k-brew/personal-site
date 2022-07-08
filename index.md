@@ -91,7 +91,6 @@ body {
 
 <div class="navbar">
   <a href="#home">Home</a>
-
   <div class="dropdown">
     <button class="dropbtn">Professional 
       <i class="fa fa-caret-down"></i>
@@ -100,7 +99,7 @@ body {
       <a href="#">Tutoring</a>
       <a href="#">Reference Material</a>
       <a href="#">Software Recommendations</a>
-    </div>    
+    </div></div>  
     
    <div class="dropdown">
     <button class="dropbtn">Personal 
@@ -110,7 +109,7 @@ body {
       <a href="#">Goals</a>
       <a href="#">Influences</a>
       <a href="#"><i>Coming soon!</i></a>
-    </div>
+    </div></div>  
      
   <a href="#goals">Personal</a>
     <div class="dropdown">
