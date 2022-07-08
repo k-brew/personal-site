@@ -91,12 +91,13 @@ body {
 
 <div class="navbar">
   <a href="#home">Home</a>
+  
   <div class="dropdown">
     <button class="dropbtn">Professional 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Tutoring</a>
+      <a href="#">Resume</a>
       <a href="#">Reference Material</a>
       <a href="#">Software Recommendations</a>
     </div></div>  
@@ -111,7 +112,7 @@ body {
       <a href="#"><i>Coming soon!</i></a>
     </div></div>  
      
-  <a href="#goals">Personal</a>
+  <a href="#goals">Resources</a>
     <div class="dropdown">
     <button class="dropbtn">Resources 
       <i class="fa fa-caret-down"></i>
@@ -120,8 +121,7 @@ body {
       <a href="#">Tutoring</a>
       <a href="#">Reference Material</a>
       <a href="#">Software Recommendations</a>
-    </div>
-  </div> 
+    </div> 
   </div> 
 </div>
 </body>
@@ -131,20 +131,12 @@ body {
 
 Welcome to the website of Kyle Brewster.
 
-This site is currently a work-in-progress, so please check these links for some more information/content in the meantime until I have this page properly developed:
+This site is currently a work-in-progress, pardon any broken functionality. Please check these links for some more information/content in the meantime until I have this page properly developed:
 
 - [Old Personal Site](https://kyle-brewster.blogspot.com/)
 - [Github](https://github.com/k-brew)
 - [Linkedin](https://www.linkedin.com/in/kyle-brewster)
 
-
-
-In the future, this page will be the "landing page" for a collection of my websites (or maybe branches within the same site). In the near future, there will be the following topics:
-
-1. **Professional/portfolio** - a collection of work samples and experience that potential employers would find relevent
-2. **Personal** - a platform for voicing my ideas, sharing things that I find interesting, and other things
-3. **Learning** - a collection of my notes and resources I find helpful/informative
-4. *to be announced soon*
 
 Best wishes in the meantime,  
 Kyle 
