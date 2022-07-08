@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Kyle M. Brewster
 ---
 <html>
