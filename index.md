@@ -2,7 +2,7 @@
 layout: default
 title: Kyle M. Brewster
 ---
-<div style="margin-left: 30px;">
+<div style="margin-left: 30px;"></div>
 
 ## Hello!
 
@@ -29,7 +29,7 @@ This site is currently a work-in-progress, pardon any broken functionality. Plea
 
 Best wishes in the meantime,  
 Kyle 
-</div>
+
 *Last Update:* 7/7/22
 
 <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script> <script> var x = document.getElementsByClassName("site-footer-credits"); setTimeout(() => { x[0].remove(); }, 10); </script>
