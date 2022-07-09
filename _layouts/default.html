@@ -125,47 +125,28 @@ body {
   padding-top: 60px;
 }
   
-@media screen and (max-width: 580px) {
-  #navbar {
-    padding: 20px 10px !important;
-  }
-  #navbar a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  #navbar-right {
-    float: none;
-  }
-}
-  
 </style>
 </head>
 <body>
 
-<div id="header" class="header">
+<div class="header">
   <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
 </div>
   
-
 <div id="navbar">
   <a href="https://k-brew.github.io/personal-site/">Home</a>
-  <a href="https://k-brew.github.io/personal-site/">Contact</a>
   <a href="https://k-brew.github.io/personal-site/files/CV.html">CV</a>
   <a href="https://github.com/k-brew">Github</a>
   <a href="https://www.linkedin.com/in/kyle-brewster/">LinkedIn</a>
   <a href="https://www.linkedin.com/in/kyle-brewster/">Portfolio</a>
+  <a href="https://k-brew.github.io/personal-site/">About Me</a>
 </div>
   
-
-
-
 <main id="content" class="main-content" role="main">
       {{ content }}
   </main>
 
-
-<script>
+  <script>
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
@@ -179,19 +160,5 @@ function myFunction() {
   }
 }
 </script>
-
-<script>
-    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("header").style.padding = "10px 10px";
-      } else {
-        document.getElementById("header").style.padding = "30px 10px";
-      }
-    }
-    </script>
-
 </body>
 </html>
