@@ -2,22 +2,13 @@
 layout: default
 title: Kyle M. Brewster
 ---
-<div style="margin-left: 30px;"></div>
 
-## Hello!
-
-Welcome to the website of Kyle Brewster.
-
-This site is currently a work-in-progress, pardon any broken functionality. Please check these links for some more information/content in the meantime until I have this page properly developed:
-
-- [Old Personal Site](https://kyle-brewster.blogspot.com/)
-- [Github](https://github.com/k-brew)
-- [Linkedin](https://www.linkedin.com/in/kyle-brewster)
-
-Best wishes in the meantime,  
-Kyle 
-
-*Last Update:* 7/10/22
+<body spellcheck="false" style="padding: 10px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">
+    <h2 dir="auto">Hello!</h2>
+    <p dir="auto">Welcome to the website of Kyle Brewster. Some content may be missing or linked to the previous version of my website temporarily while some of these pages undergo additional development. I will be making many more updates as I am able, stay tuned for more! &nbsp;</p>
+    <p dir="auto">Best wishes in the meantime,<br>Kyle</p>
+    <p dir="auto"><em><span style="font-size: 14px;">Last Update:</span></em><span style="font-size: 14px;">&nbsp;7/10/22</span></p>
+</body>
 
 
 
