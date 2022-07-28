@@ -6,16 +6,16 @@ title: Kyle M. Brewster
     <style>
         .welcoming {
             text-align: left;
-            position: absolute;
+            position: relative;
             display: inline-block;
             left: 5%;
             right: 5%;
-            top: 17%;
+            top: 10%;
         }
     </style>
 <body>
     <h1 style="color: black;
-        left: 5%; position: absolute;">
+        left: 5%; position: relative;">
         Hello and welcome to the website of Kyle Brewster!
     </h1>
     <div class="welcoming">
