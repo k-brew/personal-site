@@ -2,9 +2,7 @@
 layout: default
 title: Kyle M. Brewster
 ---
-<!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=80%, initial-scale=1">
     <style>
         .welcoming {
             text-align: left;
