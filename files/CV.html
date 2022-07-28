@@ -3,6 +3,50 @@ layout: default
 title: Curriculum vitae
 ---
 
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+
 <p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style='font-size:21px;line-height:107%;font-family:"Arial",sans-serif;color:black;'>World Athletics Championship 2022 Security &ndash; <em>Pono Security</em></span></strong></p>
 <p style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style='font-size:16px;line-height:107%;font-family:"Arial",sans-serif;color:black;'>July 2022 | Eugene, OR</span></p>
 <ul>
@@ -12,6 +56,22 @@ title: Curriculum vitae
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Completed security training curriculum, covering topics including situational awareness, threat recognition, threat response, recognizing suspicious individuals, identifying breaches or gaps in security, command hierarchy, proper communication over radio, crowd control, and more</span></li>
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Obtained clearance and passed background check for accreditation credentials to access stadium perimeter though main and secured gates, access to secured zones within stadium perimeter and field, and provide individual identification for recognizing and deterring potential threats</span></li>
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Communicated on primary radio channels using proper callsigns, terminology, and etiquette to coordinate efforts for security</span></li>
+    
+  <h3><em><b>Specific Situations from Experience</b></em></h3>
+
+<button class="collapsible">Open Section 1</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Open Section 2</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Open Section 3</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>  
+    
 </ul>
 <p><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'><br></span></p>
 <p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style='font-size:21px;line-height:107%;font-family:"Arial",sans-serif;color:black;'>Change Implementation Analyst &ndash; <em>Cerner Corporation</em></span></strong></p>
@@ -61,4 +121,24 @@ title: Curriculum vitae
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Prepared detailed notes at Budget Committee meetings to be used for policy analysis</span></li>
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Observed debates and proceedings on the House floor and reported on developments to Representative Andrews</span></li>
 </ul>
+    
+ <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
 
