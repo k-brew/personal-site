@@ -9,8 +9,7 @@ title: Kyle M. Brewster
             position: relative;
             display: inline-block;
             left: 5%;
-            right: 5%;
-            top: 10%;
+            right: 15%;;
         }
     </style>
 <body>
@@ -28,6 +27,11 @@ Some content may be missing or linked to the previous version of my website temp
     </div>
 </body>
 </html>
+
+
+
+
+
 
 
 
