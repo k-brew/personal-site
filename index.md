@@ -9,7 +9,8 @@ title: Kyle M. Brewster
             position: relative;
             display: inline-block;
             left: 5%;
-            right: 15%;;
+	    right: 5%;
+	    right-margin: 10px;
         }
     </style>
 <body>
