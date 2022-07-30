@@ -2,17 +2,50 @@
 layout: default
 title: Curriculum vitae
 ---
-
 <html>
-<head>
-<meta name="viewport" content="width=80%, initial-scale=1">
 <style>
+
 /* Style the tab */
-.tab {
+.tab{
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  width: 55%;
+  width: 90%;
+}
+
+.tab1{
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 80%;
+}
+
+.tab2{
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 80%;
+}
+
+.tab3{
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 70%;
+}
+
+.tab4{
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 70%;
+}
+
+.tab5{
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 60%;
 }
 
 /* Style the buttons inside the tab */
@@ -24,7 +57,62 @@ title: Curriculum vitae
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 15px;
+}
+
+.tab1 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.tab2 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.tab3 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.tab4 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.tab5 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 15px;
 }
 
 /* Change background color of buttons on hover */
@@ -32,8 +120,47 @@ title: Curriculum vitae
   background-color: #ddd;
 }
 
+.tab1 button:hover {
+  background-color: #ddd;
+}
+
+.tab2 button:hover {
+  background-color: #ddd;
+}
+
+.tab3 button:hover {
+  background-color: #ddd;
+}
+
+.tab4 button:hover {
+  background-color: #ddd;
+}
+
+.tab5 button:hover {
+  background-color: #ddd;
+}
+
 /* Create an active/current tablink class */
 .tab button.active {
+  background-color: #ccc;
+}
+
+.tab1 button.active {
+  background-color: #ccc;
+}
+
+.tab2 button.active {
+  background-color: #ccc;
+}
+
+.tab3 button.active {
+  background-color: #ccc;
+}
+
+.tab4 button.active {
+  background-color: #ccc;
+}
+.tab5 button.active {
   background-color: #ccc;
 }
 
@@ -43,29 +170,104 @@ title: Curriculum vitae
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
-  width: 60%;
 }
-
+.tabcontent1 {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tabcontent2 {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tabcontent3 {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tabcontent4 {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tabcontent5 {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
 /* Style the close button */
 .topright {
   float: right;
   cursor: pointer;
   font-size: 28px;
 }
-
-.topright:hover {color: red;}
-
-.tabcontent {
-  animation: fadeEffect 1.5s; /* Fading effect takes 1.5 second */
+.topright1 {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+.topright2 {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+.topright3 {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+.topright4 {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+.topright5 {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
 }
 
+.topright:hover {color: red}
+.topright1:hover {color: red}
+.topright2:hover {color: red}
+.topright3:hover {color: red}
+
+.tabcontent {
+  animation: fadeEffect 1.5s; 
+  width: 60%;
+}
+.tabcontent1 {
+  animation: fadeEffect 1.5s; 
+  width: 60%;
+}
+.tabcontent2 {
+  animation: fadeEffect 1.5s; 
+  width: 60%;
+}
+.tabcontent3 {
+  animation: fadeEffect 1.5s; 
+  width: 60%;
+}
+.tabcontent4 {
+  animation: fadeEffect 1.5s; 
+  width: 60%;
+}
+.tabcontent5 {
+  animation: fadeEffect 1.5s; 
+  width: 60%;
+}
 /* Go from zero to full opacity */
 @keyframes fadeEffect {
   from {opacity: 0;}
   to {opacity: 1;}
 }
 </style>
-</head>
 <body>
 
 
@@ -79,30 +281,42 @@ title: Curriculum vitae
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Obtained clearance and passed background check for accreditation credentials to access stadium perimeter though main and secured gates, access to secured zones within stadium perimeter and field, and provide individual identification for recognizing and deterring potential threats</span></li>
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Communicated on primary radio channels using proper callsigns, terminology, and etiquette to coordinate efforts for security</span></li>
     
-<h4><b><em>Specific Experiences at Cerner</em></b></h4>
+<h4><b><em>Noteable Experiences at the World Athletics Championship</em></b></h4>
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  <button class="tablinks" onclick="openCity(event, 'comm')">Communication Barriers</button>
+  <button class="tablinks" onclick="openCity(event, 'PSec')">Perimeter Security</button>
+  <button class="tablinks" onclick="openCity(event, 'threat')">Threat Recognition</button>
 </div>
 
-<div id="London" class="tabcontent">
+<div id="comm" class="tabcontent">
   <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
+  <p>
+ I encountered athletes representing Colombia at the World Championship that didn’t speak English. I was able to provide instructions <em>in Spanish</em> regarding protocol for their vehicle, directions to stadium, frustration with management for slow responsiveness to my radio requests, and best-wishes for their perfomance in the events
+ <br></br>
+ I had multiple other interactions with athletes, coaching staff, and spectators visiting from across the world that had limited understanding of English or did not speak it at all, like with an interaction I had with an elderly Chinese woman or with Colombian athletes as aforementioned. As a result, I would have adapt my methods of communication to the specific situation and rely on my knowledge of other languages and use of non-verbals in my communication.
+        </p>
 </div>
 
-<div id="Paris" class="tabcontent">
+<div id="PSec" class="tabcontent">
   <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p> 
+  <p>
+    <ul>
+        <li>Notified headquarters to radio to request backup security personal to a specific location to ensure the area was properly secured in order to avoid potential unauthorized perimeter breaches</li>
+        <li>Directed vehicles and pedestrians near post where temporary road closures and one and avoided multiple potential collisions between vehicles and to pedestrians/bikers</li>
+    </ul>
+  </p> 
 </div>
 
-<div id="Tokyo" class="tabcontent">
+<div id="threat" class="tabcontent">
   <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
+  <p>
+    	<b><em>"If you see something, say something"</em></b>
+        <br></br>
+        This was a quote that I had hear before in situational-awareness training in past experience and that continued to have the same wisdom when mentioned in training for this position and for good reasons. A simple report of an individual, item, package, or anything else that seems abnormal can prevent potential threats from happening in the first place.
+        <br></br>
+        While at one of my security postings, I noticed that there was a bag that had been left unattended for some time. I didn't see the individual that had placed left the bag there, but the context of the situation was enough to classify the bag as "suspicious" and report the incident to command. Fortunately upon informing others of the developing situation, the package was said to belong to the Italian coaching staff so they could have a place for cigarette breaks that was out of the no-smoking zones on the campus.
+  </p>
 </div>
     
 </ul>
@@ -118,7 +332,72 @@ title: Curriculum vitae
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Responsible for backend server changes and ensuring successful implementation from non-production to live environment</span></li>
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Make recommendations adhering to HIPAA, SNOWMED CT, EUPHA, ICD-10, ISA, and other company/industry standards</span></li>
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Obtained clearance with the Department of Defense and Veteran Affairs to work on projects in the scope of EHRM contracts and privileges as a Data Base Administrator in more than 10 client domains</span></li>
+
+<h4><b><em>Noteable Experiences at Cerner</em></b></h4>
+
+<div class="tab3">
+  <button class="tablinks3" onclick="openCity3(event, 'ex61')">SME</button>
+  <button class="tablinks3" onclick="openCity3(event, 'ex62')">Discharge Workflow</button>
+  <button class="tablinks3" onclick="openCity3(event, 'ex63')">Escalated Requests</button>
+</div>
+
+<div id="ex61" class="tabcontent3">
+  <span onclick="this.parentElement.style.display='none'" class="topright3">&times</span>
+  <p>
+		<b>Emergency Medicine Subject Matter Expert (SME)</b>
+        <br></br>
+        I was frequently contacted by internal associates and external clients regarding issues that were flagged as a high priority (“escalated”) because of the impact the issue had on workflow. If an aspect of the issue was within the scope of my solution, I would be assigned as a subject matter expert (SME) for the lifecycle of the issue.
+  </p>
+</div>
+
+<div id="ex62" class="tabcontent3">
+  <span onclick="this.parentElement.style.display='none'" class="topright3">&times</span>
+  <p>
+	One recurring request I would receive would be to update the content library of patient education for a given organization. The Los Angeles County Department of Public Health (LAC) was one clients I was aligned with and would frequently work with clinicians from their emergency depart and members of leadership from their IT department. When I received a request, I would first ensure that the change request had received proper approval per the contractual standards for the specific client
+    </p> 
+</div>
+
+<div id="ex63" class="tabcontent3">
+  <span onclick="this.parentElement.style.display='none'" class="topright3">&times</span>
+	<p>
+  	One escalated issue that I worked on was requested when it was reported that the for the dynamic documentation generated from the patient’s encounter data that contains follow-up instructions, a summary of visit, and other information pertaining to the nature of their visit was appearing blank for all patients being discharged from the emergency department at the hospital or being transferred to another unit/department within the hospital network.
+    <br>/<br>
+    For many reasons, it was important to determine what was causing the issue and how it could be resolved in a timely manner. By the end troubleshooting the issue, I discovered that the issue was caused following a change made by the client’s local IT to a specific discharge template that was intended to be a local change, but instead affected the entire organization. In technical terms, the change resulted in a break to the logic of the backend workflow where the code that automatically execute queries for the relevant information specific to the individual and characteristics of their encounter that populates the discharge documentation and the tokens that pull specific sets of information (depending on their configuration) were searching for data and instructions from two different sources instead of one, thus creating a computational-impossibility (in the context of the workflow).
+        <br></br>
+        An outline of my workflow for the issue mentioned above is outlined as follows:
+        <ul>
+        	<li>Check to see if issue is occurring in the live/production domain, the testing/training domain, or both. Since the issue is occurring in both domains, the resolution to the issue can be implemented and tested in the testing/training domain to avoid potential issues in live workflow. Continue troubleshooting process.</li>
+            <li>Look at configurations of the depart process for all locations experiencing the reported issue and check for obvious errors in depart template at a glance based on solutions from past similar situations.<ul>
+            	<li>Ensure depart/discharge process is configured for unit</li>
+                <li>Ensure the necessary settings in place for tracking groups affected by issue</li>
+                <li>Ensure tracking group assignments for affected units exist</li>
+               </ul>
+            <li>After confirming all of the above, open text editor to inspect HTML of template for spelling errors, improper usage of syntax, or other errors resulting from updates to software or workflow. Verified that no such errors exist.</li>
+            <li>Open two different internal applications<ul>
+            	<li>First application for referencing core code sets, unique identifiers, and configuration metadata for different tracking groups and locations</li>
+                <li>Second application to writing and executing queries based on returned results from searches of core code set above to pull data from global and local databases</li>
+              </ul>
+            <li>Search for relevant code sets and run queries to obtain the following infomration<ul>
+            	<li>Code values for locations experiencing issues</li>
+                <li>Code values for tracking groups experiencing issues</li>
+                <li>Code values for tracking group location assignments relationships</li>
+              </ul>
+            <li>Merge results into single file and export .csv to computer</li>
+            <li>Open file and apply different filters to look for possible discrepancies. The issue has been found!<ul>
+            	<li>Assignment locations is a configuration option that creates an association between units and tracking groups. There had been a duplicate entry for one of these relationships that was causing a logical error in the workflow. Normally, the events that are triggered when a patient is transitions to the depart section of the clinical workflow look to a specific set of instructions/procedures depending on the tracking group. Instead what was happening was that the system was attempting to pull in directions for the workflow from two different sources, which is computationally impossible</li></ul>
+            <li>Lastly, summarize findings and notify client of issue and what caused issue (to avoid future similar occurrences) and ask for verification of change in testing domain prior to production implementation. Ask for validation again after implementing into production domain and monitor for remainder of day to ensure proper functionality.</li> 
+      </ul>
+	</p>
+</div>
+
+<div id="ex64" class="tabcontent3">
+  <span onclick="this.parentElement.style.display='none'" class="topright3">&times</span>
+  <p>
+  </p>
+</div>
+
 </ul>
+<br>
 <p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style='font-size:20px;line-height:107%;font-family:"Arial",sans-serif;color:black;'>City Carrier Assistant &ndash; <em>United States Postal Service</em></span></strong></p>
 <p style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style='font-size:16px;line-height:107%;font-family:"Arial",sans-serif;color:black;'>May 2019 to May 2020 | Kansas City, MO</span></p>
 <ul>
@@ -126,6 +405,28 @@ title: Curriculum vitae
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Logistically sequenced route(s) prior to daily delivery to maximize street-time efficiency</span></li>
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Delivered mail and packages along prescribed route by foot or by vehicle on a regular schedule in all weather conditions</span></li>
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Reported and/or addressed unusual and suspicious activity relating to security and deliverance of mail</span></li>
+    
+<h4><b><em>Noteable Experiences with the Postal Service</em></b></h4>
+
+<div class="tab2">
+  <button class="tablinks2" onclick="openCity2(event, 'vig')">Vigaliance</button>
+  <button class="tablinks2" onclick="openCity2(event, 'dec')">Decisiveness</button>
+</div>
+
+<div id="vig" class="tabcontent2">
+  <span onclick="this.parentElement.style.display='none'" class="topright2">&times</span>
+  <p>There was a package brought to me one morning that appeared to be poorly packaged with fresh stains appearing on the outside and emitting an unusual odor. I grabbed a plastic bag to cover the package to prevent possible spread of whatever was leaking since we didn’t know the content of the package and if it would be harmful if contacted. I immediately reported the package to the supervisor and they were able to properly handle the situation.</p>
+</div>
+
+<div id="dec" class="tabcontent2">
+  <span onclick="this.parentElement.style.display='none'" class="topright2">&times</span>
+  <p>As I was beginning to approach the postal vehicle to move locations after completing a portion of a walking route, I was approached by a large muscular dog that was unleashed with no collar. After I noticed it standing there, it began to slowly walk towards me while snarling and growling.
+  <br></br>
+  I recalled my knowledge of animal behavior and knew it would be better to assert myself as dominant rather than panicking and running in the opposite situation.I threw my hands into the air, let out my best war-cry/shout, and began to charge at the dog, stomping with each step. This was enough to bewilder the dog who cowered several feet backwards upon my advance. Although I may not be in many situations where I am faced with an aggressive dog in the position for which you are considering me, I would still bring the same ability to draw upon my training, knowledge, and instinct to retain my ability to make strategic and calculated decisions when pressed.</p> 
+</div>
+
+
+
 </ul>
 <p><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'><br></span></p>
 <p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style='font-size:20px;line-height:107%;font-family:"Arial",sans-serif;color:black;'>Tutor; Tutor Specialist &ndash; <em>Northwest Student Success Center</em></span></strong></p>
@@ -135,6 +436,8 @@ title: Curriculum vitae
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Facilitated learning as a tutor for the following classes: Microeconomic &amp; Macroeconomic Theory, International Economics, Calculus I &amp; II, Principles of Microeconomics &amp; Macroeconomics, Finance, and Government &amp; Politics</span></li>
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Created lessons plans and taught lectures to up to 40 students to cover challenging course material and topics</span></li>
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Obtained certification as a CRLA Master Level 3 Tutor</span></li>
+    
+
 </ul>
 <p style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style='font-size:20px;line-height:107%;font-family:"Arial",sans-serif;color:black;'>&nbsp;</span></strong></p>
 <p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style='font-size:20px;line-height:107%;font-family:"Arial",sans-serif;color:black;'>Financial Advisor Intern &ndash; <em>Edward Jones</em></span></strong></p>
@@ -144,6 +447,10 @@ title: Curriculum vitae
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Strengthened public communication &amp; polling skills by conducting survey of residents and businesses</span></li>
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Created a business plan for the establishment of a new branch as a financial advisor</span></li>
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Completed curriculum to learn more about financial/administrative knowledge required of a financial advisor</span></li>
+ 
+
+    
+
 </ul>
 <p style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style='font-size:20px;line-height:107%;font-family:"Arial",sans-serif;color:black;'>&nbsp;</span></strong></p>
 <p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style='font-size:20px;line-height:107%;font-family:"Arial",sans-serif;color:black;'>Legislative Intern &ndash; <em>Missouri State Capitol</em></span></strong></p>
@@ -153,6 +460,8 @@ title: Curriculum vitae
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Researched various topics including the economic impact of tax policies, performance of various industries across rural constituencies, and cost-benefit analysis of social programs and other budgeted expenses to be used in legislation development by Representative Andrews and/or other legislators</span></li>
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Prepared detailed notes at Budget Committee meetings to be used for policy analysis</span></li>
     <li><span style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:12.0pt;color:black;'>Observed debates and proceedings on the House floor and reported on developments to Representative Andrews</span></li>
+
+
 </ul>
     
 <script>
@@ -165,6 +474,57 @@ function openCity(evt, cityName) {
   tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+</script>
+
+<script>
+function openCity1(evt, cityName) {
+  var i, tabcontent1, tablinks1;
+  tabcontent1 = document.getElementsByClassName("tabcontent1");
+  for (i = 0; i < tabcontent1.length; i++) {
+    tabcontent1[i].style.display = "none";
+  }
+  tablinks1 = document.getElementsByClassName("tablinks1");
+  for (i = 0; i < tablinks1.length; a++) {
+    tablinks1[i].className = tablinks1[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+</script>
+
+<script>
+function openCity2(evt, cityName) {
+  var i, tabcontent2, tablinks2;
+  tabcontent2 = document.getElementsByClassName("tabcontent2");
+  for (i = 0; i < tabcontent2.length; i++) {
+    tabcontent2[i].style.display = "none";
+  }
+  tablinks2 = document.getElementsByClassName("tablinks2");
+  for (i = 0; i < tablinks2.length; i++) {
+    tablinks2[i].className = tablinks2[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+</script>
+
+<script>
+function openCity3(evt, cityName) {
+  var i, tabcontent3, tablinks3;
+  tabcontent3 = document.getElementsByClassName("tabcontent3");
+  for (i = 0; i < tabcontent3.length; i++) {
+    tabcontent3[i].style.display = "none";
+  }
+  tablinks3 = document.getElementsByClassName("tablinks3");
+  for (i = 0; i < tablinks3.length; i++) {
+    tablinks3[i].className = tablinks3[i].className.replace(" active", "");
   }
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
