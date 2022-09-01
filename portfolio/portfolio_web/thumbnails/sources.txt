@@ -1,0 +1,25 @@
+SOURCES
+
+CNN - https://towardsdatascience.com/image-classification-in-10-minutes-with-mnist-dataset-54c35b77a38d?gi=230f163f8a5c
+
+Housing - https://towardsdatascience.com/machine-learning-predicting-house-prices-with-regression-2388bb876a6f
+
+GCE - https://medium.com/google-cloud/cloud-sql-private-ip-proxy-83e85456571f
+
+
+
+ANOVA - https://www.tibco.com/reference-center/what-is-analysis-of-variance-anova
+
+Protecyt - https://www.gtreview.com/news/global/expert-analysis-how-trading-companies-can-circumvent-protectionist-policies/
+
+
+ENVIRONMENTALISM - https://kungfuhobbit.medium.com/environmentalism-dbd2e4202802
+
+JUSTICE - https://www.wisconsinacademy.org/magazine/making-criminal-justice-system-visible
+
+IAEA - https://www.e-ir.info/2018/03/17/online-resources-the-international-atomic-energy-agency/
+
+Glasser - https://blueandgreentomorrow.com/environment/smart-cities-destined-to-make-megapolis-greener/
+
+UBI - https://www.investopedia.com/terms/b/basic-income.asp
+

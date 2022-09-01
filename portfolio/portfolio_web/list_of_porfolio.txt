@@ -1,0 +1,41 @@
+
+Global Temperature Anomalies and Climate Change
+
+
+Global Temperature Anomalies -- code
+
+Regression Analysis
+
+
+
+
+
+	# Projects
+- The Scoop
+- Diver
+- more coming soon
+
+	# Data Analysis, Statistical Programming, & Experiment Design
+[x] - Navigating SQL Databases from R -- GCE BigQuery
+[x] - Predicting Housing Prices -- Binary Logistic/Regression & Ensemble Methods
+[x] - EPA NOx NPB -- Triple Regression Discontinuity Design
+[x] - Predicting Rates of Opioid Prescriptions
+[x] - Convolutional Neural Network -- Image Recognition
+[x] - The Huai River Analysis
+[x] - Penalized Regression with LASSO, Ridge, and Elasticnet
+[x] - Predicting Election Results with Random Forests and Decision Trees
+
+	# Presentations & Tutrials
+[x] - R Programming Tutorial - contour()
+[x] - R Programming Demo - rtweet()
+[x] - ANOVA Testing Methods
+
+
+	# Research & Writing Samples
+Inferences about Relationships
+[x] - Protectionism in Trade -- Policy Analysis
+[x] - Universal Basic Income -- Research Proposal
+[x] - Environmental Pragmatism
+[x] - Systematic Failures in Justice, Equality, and Opportunity in the US
+"Triumph of the City" by Edward Glaser -- Book Review
+The International Atomic Energy Association
