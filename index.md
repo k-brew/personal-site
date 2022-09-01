@@ -23,7 +23,7 @@ Some content may be missing or linked to the previous version of my website temp
 		<div>
         <p>Best wishes in the meantime,</p>
 <p><strong>Kyle</strong></p>
-<p><em><sub>Last Update: 7/30/22</sub></em></p>
+<p><em><sub>Last Update: 8/30/22</sub></em></p>
         </div>
     </div>
 </body>
