@@ -19,11 +19,10 @@ title: Kyle M. Brewster
         Hello and welcome to the website of Kyle Brewster!
     </h1>
     <div class="welcoming">
-Some content may be missing or linked to the previous version of my website temporarily while some of these pages undergo additional development. I will be making many more updates as I am able, stay tuned for more!
+	    Please reference the <em>portfolio</em> page on the menu above to view some examples of my analytical work. I will continue to make additional updates to this site, stay tuned for more to come! 
 		<div>
         <p>Best wishes in the meantime,</p>
 <p><strong>Kyle</strong></p>
-<p><em><sub>Last Update: 8/30/22</sub></em></p>
         </div>
     </div>
 </body>
